@@ -1,5 +1,9 @@
 ---
 title: "Modelling interventions and health economics"
+author:
+  - Thinh
+  - Wei Hao
+  - Chang
 execute:
   echo: true
 subtitle: "Summary from the MIDSEA Summer School 2024"
@@ -129,6 +133,16 @@ Assuming a vaccine with leaky effectiveness $VE_L$ against infection and severe 
 Some vaccines require multiple doses. Below is the DynaMICE model [@verguet2015] for the 2-dose measles vaccine, assuming AoN effectiveness for both doses.
 
 ![](img/vax/dynamice.svg)
+
+## Other interventions
+
+-   Screening
+-   Social distancing
+-   Post-exposure treatment
+
+1.  What is the ~~vaccine~~ intervention effect? Does it protect against infection, severe disease, transmission, or a combination?
+
+2.  How do we model imperfect protection?
 
 # Health economics
 
