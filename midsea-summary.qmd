@@ -244,26 +244,6 @@ Individual-based model, also called **microsimulation** model, keeps track of ea
 
 ![](img/he/he-abm.jpg)
 
-### Choice of model
-
-The most difficult decision in model building is "How complex should the model be?" [@hilborn1997]. Most modellers agree on 2 basic rules for choosing a model:
-
-1.  Let the data tell you [@hilborn1997].
-
-![Asst Prof. Kiesha Prem's lecture at MIDSEA Summer School 2024.](img/he/he-mod-choice.svg)
-
-Simpler models need less data to estimate parameters but might overlook important system components. In contrast, complex models can capture more details but we may not have sufficient data to determine the parameters [@hilborn1997].
-
-2.  The use of the model [@hilborn1997].
-
-![Adapted from Asst Prof. Kiesha Prem's lecture at MIDSEA Summer School 2024.](img/he/he-mod.svg)
-
-Simple models are useful if their assumptions are reasonable. For accurate predictions, a "wrong" but simpler model can do better than the "right" but complex model when parameters are estimated [@hilborn1997]. However, a complex model provides a better representation of uncertainty [@hilborn1997].
-
-Given the close connection between health economics and policy, guidelines are available for every step of the process. Be sure to read and follow these guidelines when conducting your analysis. Below is guidance on choosing between static and dynamic models.
-
-![How the choice of a static model, static model with approximation for herd immunity or dynamic model could be made [@jit2011]](img/he/he-mod-choice-guideline.svg)
-
 # Measuring consequences
 
 ## Utility

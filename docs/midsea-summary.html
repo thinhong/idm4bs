@@ -704,37 +704,8 @@ Figure&nbsp;5: Compartmental dynamic model, adapted from <span class="citation" 
 </section>
 <section id="individual-based-model-1" class="slide level2">
 <h2>Individual-based model</h2>
-<p><img data-src="img/he/he-abm.jpg"></p>
-<h3 id="choice-of-model">Choice of model</h3>
-<p>The most difficult decision in model building is “How complex should the model be?” <span class="citation" data-cites="hilborn1997">(<a href="#/references" role="doc-biblioref" onclick="">Hilborn &amp; Mangel, 1997</a>)</span>. Most modellers agree on 2 basic rules for choosing a model:</p>
-<ol type="1">
-<li>Let the data tell you <span class="citation" data-cites="hilborn1997">(<a href="#/references" role="doc-biblioref" onclick="">Hilborn &amp; Mangel, 1997</a>)</span>.</li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/he/he-mod-choice.svg"></p>
-<figcaption>Asst Prof.&nbsp;Kiesha Prem’s lecture at MIDSEA Summer School 2024.</figcaption>
-</figure>
-</div>
-<p>Simpler models need less data to estimate parameters but might overlook important system components. In contrast, complex models can capture more details but we may not have sufficient data to determine the parameters <span class="citation" data-cites="hilborn1997">(<a href="#/references" role="doc-biblioref" onclick="">Hilborn &amp; Mangel, 1997</a>)</span>.</p>
-<ol start="2" type="1">
-<li>The use of the model <span class="citation" data-cites="hilborn1997">(<a href="#/references" role="doc-biblioref" onclick="">Hilborn &amp; Mangel, 1997</a>)</span>.</li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/he/he-mod.svg"></p>
-<figcaption>Adapted from Asst Prof.&nbsp;Kiesha Prem’s lecture at MIDSEA Summer School 2024.</figcaption>
-</figure>
-</div>
-<p>Simple models are useful if their assumptions are reasonable. For accurate predictions, a “wrong” but simpler model can do better than the “right” but complex model when parameters are estimated <span class="citation" data-cites="hilborn1997">(<a href="#/references" role="doc-biblioref" onclick="">Hilborn &amp; Mangel, 1997</a>)</span>. However, a complex model provides a better representation of uncertainty <span class="citation" data-cites="hilborn1997">(<a href="#/references" role="doc-biblioref" onclick="">Hilborn &amp; Mangel, 1997</a>)</span>.</p>
-<p>Given the close connection between health economics and policy, guidelines are available for every step of the process. Be sure to read and follow these guidelines when conducting your analysis. Below is guidance on choosing between static and dynamic models.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/he/he-mod-choice-guideline.svg"></p>
-<figcaption>How the choice of a static model, static model with approximation for herd immunity or dynamic model could be made <span class="citation" data-cites="jit2011">(<a href="#/references" role="doc-biblioref" onclick="">Jit &amp; Brisson, 2011</a>)</span></figcaption>
-</figure>
-</div>
-</section></section>
+
+<img data-src="img/he/he-abm.jpg" class="r-stretch"></section></section>
 <section>
 <section id="measuring-consequences" class="title-slide slide level1 center">
 <h1>Measuring consequences</h1>
@@ -793,7 +764,6 @@ Figure&nbsp;5: Compartmental dynamic model, adapted from <span class="citation" 
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 <div class="quarto-auto-generated-content">
-<p><img src="/logo.svg" class="slide-logo"></p>
 <div class="footer footer-default">
 <p><a href="https://drthinhong.com/idm4b/he.html">Website</a></p>
 </div>
@@ -807,9 +777,6 @@ Goeree, R., &amp; Diaby, V. (2013). Introduction to health economics and decisio
 </div>
 <div id="ref-heeg2008" class="csl-entry" role="listitem">
 Heeg, B. M. S., Damen, J., Buskens, E., Caleo, S., Charro, F. de, &amp; Hout, B. A. van. (2008). Modelling Approaches. <em>PharmacoEconomics</em>, <em>26</em>(8), 633–648. <a href="https://doi.org/10.2165/00019053-200826080-00002">https://doi.org/10.2165/00019053-200826080-00002</a>
-</div>
-<div id="ref-hilborn1997" class="csl-entry" role="listitem">
-Hilborn, R., &amp; Mangel, M. (1997). <em>The ecological detective: Confronting models with data</em>. Princeton University Press. <a href="https://www.jstor.org/stable/j.ctt24hqnx">https://www.jstor.org/stable/j.ctt24hqnx</a>
 </div>
 <div id="ref-jit2011" class="csl-entry" role="listitem">
 Jit, M., &amp; Brisson, M. (2011). Modelling the Epidemiology of Infectious Diseases for Decision Analysis. <em>PharmacoEconomics</em>, <em>29</em>(5), 371–386. <a href="https://doi.org/10.2165/11539960-000000000-00000">https://doi.org/10.2165/11539960-000000000-00000</a>
@@ -1234,24 +1201,6 @@ Zachreson, C., Tobin, R., Szanyi, J., Walker, C., Cromer, D., Shearer, F. M., Co
         }
       }
     });
-    </script>
-    <script type="text/javascript">
-      function hyperlink_logo() {
-        let logo = document.querySelector('img.slide-logo');
-        const logo_cloned = logo.cloneNode(true);
-        const link = document.createElement('a');
-        // -----------------------------------------------------------
-        // set the link for the logo here in `link.href` within quotes
-        link.href = 'https://drthinhong.com';
-        // -----------------------------------------------------------
-        link.target = '_blank';
-        link.appendChild(logo_cloned);
-        logo.replaceWith(link);
-      };
-      
-      window.document.addEventListener("DOMContentLoaded", function (event) {
-        hyperlink_logo();
-      });
     </script>
     
 
